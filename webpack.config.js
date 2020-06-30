@@ -1,7 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  target: 'node',
+  mode: 'production',
   entry: './src/owoify.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
